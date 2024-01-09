@@ -24,8 +24,6 @@ package-lock.json
 .DS_Store
 
 #Obsidian
-obsidian/workspace.json
-.obsidian/workspace.json
-obsidian/workspace-mobile.json
-.obsidian/workspace-mobile.json
+obsidian/
+.obsidian/
 
