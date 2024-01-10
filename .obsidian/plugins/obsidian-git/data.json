@@ -1,9 +1,9 @@
 {
-  "commitMessage": "Docs : {{date}}, total {{numfiles}} was changed, {{files}}  ",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 1,
-  "autoPushInterval": 1,
-  "autoPullInterval": 1,
+  "commitMessage": "{{date}} : Obsidian Auto BackUp",
+  "commitDateFormat": "YYYY-MM-DD HH:mm",
+  "autoSaveInterval": 60,
+  "autoPushInterval": 720,
+  "autoPullInterval": 720,
   "autoPullOnBoot": false,
   "disablePush": false,
   "pullBeforePush": true,
@@ -51,5 +51,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "Docs : {{date}}, total {{numfiles}} was changed, {{files}}  "
+  "autoCommitMessage": "{{date}} : Obsidian Auto BackUp"
 }
