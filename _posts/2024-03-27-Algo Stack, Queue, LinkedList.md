@@ -45,7 +45,7 @@ tags:
 a = list() # 비어있는 리스트는 이런식으로 생성할 수 있다.
 ```
 
-	리스트도 문자열과 같이 인덱싱과 슬라이싱이 가능하다.
+리스트도 문자열과 같이 인덱싱과 슬라이싱이 가능하다.
 ### Stack
 ---
 >스택은 가장 나중에 넣은 데이터를 가장 먼저 꺼내쓸 수 있는 데이터구조로 흔히 LIFO(Last In First Out)라고 한다. 파이썬으로 스택을 구현할때는 연결리스트를 만드는 것처럼 리스트를 사용해서 만들수 있다.
@@ -162,3 +162,6 @@ head.next.next = Node(3)
 
 ### Reference
 ---
+[점프 투 파이썬](https://wikidocs.net/book/1)
+[좌충우돌, 파이썬으로 자료구조 구현하기](https://wikidocs.net/book/9059)
+[C로 만드는 자료구조와 적용 알고리즘 해설서](https://product.kyobobook.co.kr/detail/S000001421217)
