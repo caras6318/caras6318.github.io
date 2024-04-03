@@ -1,12 +1,12 @@
 ---
 title: Algo List append() vs Extend()
 date: 2024-04-03 20:04 +0900
-categories: Algorithm, Python
+categories: Python
 tags:
   - Python
   - 자료구조
 ---
-	## Intro
+## Intro
 ---
 코딩테스트를 준비하면서 여러 문제들을 풀어보고 있는중인데 List 자료구조를 사용하면서 새로운 원소를 추가하는 방법에 대해서 작성해 보려고 한다.
 

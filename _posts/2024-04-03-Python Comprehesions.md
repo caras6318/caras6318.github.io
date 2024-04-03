@@ -1,7 +1,7 @@
 ---
 title: Algo Comprehesions
 date: 2024-04-03 21:04 +0900
-categories: Algorithm, Python
+categories: Python
 tags:
   - Python
   - 자료구조
