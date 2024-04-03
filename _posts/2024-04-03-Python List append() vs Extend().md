@@ -1,5 +1,5 @@
 ---
-title: Algo List append() vs Extend()
+title: Python List append() vs Extend()
 date: 2024-04-03 20:04 +0900
 categories: Python
 tags:

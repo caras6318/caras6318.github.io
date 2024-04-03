@@ -1,5 +1,5 @@
 ---
-title: Algo Comprehesions
+title: Python Comprehesions
 date: 2024-04-03 21:04 +0900
 categories: Python
 tags:
