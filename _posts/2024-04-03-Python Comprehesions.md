@@ -57,7 +57,7 @@ for n in range(1, 10+1):
 
 기존의 방식대로 for문으로 바꾼다면 다음과 같다.
 
-```less
+```python
 Copyfor x in ['쌈밥', '치킨', '피자']:
     for y in ['사과', '아이스크림', '커피']:
         for z in ['배달 시키기', '가서 먹기']:

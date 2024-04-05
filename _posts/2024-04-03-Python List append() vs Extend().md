@@ -25,44 +25,38 @@ List 자료형에 새로운 원소를 추가하는 방법은 크게 3가지가 �
 x = ['Tick', 'Tock', 'Song'] 
 y = ['Ping', 'Pong'] 
 x.append(y) 
-print('x:', x) 
 
-> x: ['Tick', 'Tock', 'Song', ['Ping', 'Pong']]
+print('x:', x)  # x: ['Tick', 'Tock', 'Song', ['Ping', 'Pong']]
 
 x = ['Tick', 'Tock', 'Song'] 
 y = ['Ping', 'Pong'] 
 x.extend(y) 
-print('x:', x) 
 
-> x: ['Tick', 'Tock', 'Song', 'Ping', 'Pong']
+print('x:', x) # x: ['Tick', 'Tock', 'Song', 'Ping', 'Pong']
 
 x = ['Tick', 'Tock', 'Song'] 
 y = [['Ping', 'Pong']] 
 x.append(y) 
-print('x:', x) 
 
-> x: ['Tick', 'Tock', 'Song', [['Ping', 'Pong']]]
+print('x:', x) # x: ['Tick', 'Tock', 'Song', [['Ping', 'Pong']]]
 
 x = ['Tick', 'Tock', 'Song'] 
 y = [['Ping', 'Pong']] 
 x.extend(y) 
-print('x:', x) 
 
-> x: ['Tick', 'Tock', 'Song', ['Ping', 'Pong']]
+print('x:', x) # x: ['Tick', 'Tock', 'Song', ['Ping', 'Pong']]
 
 x = ['Tick', 'Tock', 'Song'] 
 y = 'Ping' 
 x.append(y) 
-print('x:', x) 
 
-> x: ['Tick', 'Tock', 'Song', 'Ping']
+print('x:', x) # x: ['Tick', 'Tock', 'Song', 'Ping']
 
 x = ['Tick', 'Tock', 'Song'] 
 y = 'Ping' 
 x.extend(y) 
-print('x:', x)
 
-> x: ['Tick', 'Tock', 'Song', 'P', 'i', 'n', 'g']
+print('x:', x) # x: ['Tick', 'Tock', 'Song', 'P', 'i', 'n', 'g']
 ```
 
 

@@ -1,6 +1,6 @@
 [
-  "table-editor-obsidian",
   "templater-obsidian",
   "editing-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian"
 ]

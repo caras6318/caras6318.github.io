@@ -39,9 +39,7 @@ for student_id, name in student_info.items():
 > 2024392 아이유
 > 2024393 장원영
 > 2024401 차은우
-
 ```
-
 
 3. key만 접근(dictionary.keys())
    
@@ -53,9 +51,7 @@ for student_id in student_info.keys():
 > 2024392 
 > 2024393 
 > 2024401
-
 ```
-​
 4. value에만 접근(dictionary.values())
 
 ```python

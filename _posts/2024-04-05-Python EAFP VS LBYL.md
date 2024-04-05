@@ -32,7 +32,7 @@ else:
 process(dic[key] if key in dic else None)
 ```
 
-- EAFP 코딩 스타일
+EAFP 코딩 스타일
 ```python
 try:
     process(dic[key])
