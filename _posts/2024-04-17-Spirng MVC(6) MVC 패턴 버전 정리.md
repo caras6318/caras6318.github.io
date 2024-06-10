@@ -15,7 +15,7 @@ tags:
 ---
 먼저 프론트 컨트롤러을 적용해보면 다음과 같다.
 
-![FC V1](MVC%20V1.png)
+![FC V1](MVC_V1.png)
 
 프론트 컨트롤러를도입하게 되면 다음과 같은 프로세스를 통해 작업이 처리된다.
 1. 클라이언트로부터 요청을 받아 프론트 컨트롤러가 URL매핑정보를 보고 매핑되어있는 컨트롤러를 조회한다.
@@ -88,7 +88,7 @@ dispatcher.forward(request, response);
 컨트롤러에서 View단으로 이동하는 부분에 위와 같은 중복된 코드들이 존재하게 된다.
 이를 해결하기 위해서 다시한번 공통적으로 뷰를 처리하는 객체를 생성해주는것이 V2다.
 
-![FC V2](MVC%20V2.png)
+![FC V2](MVC_V2.png)
 
 ```java
 package hello.servlet.web.frontcontroller;
