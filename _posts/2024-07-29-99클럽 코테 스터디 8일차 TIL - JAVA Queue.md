@@ -1,5 +1,5 @@
 ---
-title: JAVA Queue
+title: 99클럽 코테 스터디 8일차 TIL - JAVA Queue
 date: 2024-07-29 23:07 +0900
 categories: JAVA
 tags:
